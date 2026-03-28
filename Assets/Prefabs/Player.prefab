@@ -360,6 +360,7 @@ MonoBehaviour:
   _extrapolateInput: 1
   moveSpeed: 7
   acceleration: 20
+  planerDamping: 10
   inputReader: {fileID: 11400000, guid: e296a74c7bfc61147b656b0324ceba11, type: 2}
   firstPersonCamera: {fileID: 1259867291487212449}
   predictedRigidbody: {fileID: 6994797158657237906}
@@ -372,7 +373,7 @@ Rigidbody:
   m_GameObject: {fileID: 8869280187851212421}
   serializedVersion: 5
   m_Mass: 1
-  m_LinearDamping: 10
+  m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
